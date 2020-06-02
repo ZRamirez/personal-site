@@ -1,5 +1,21 @@
-<div class="container">
-    <div class="row">
-        Just a marker
+<div class="grid-container">
+    <div class="grid-item intro">
+        <div class="name">
+            Hi, I'm Zackary Ramirez.<br>
+            <div class="job-title">
+                I am an aspiring Software Developer.
+            </div>
+        </div>
+    </div>
+    <div class="grid-item view-button">
+        <button class="btn btn-primary" (click)="onClickScrollToHome(homepage)">View my website</button>
+    </div>
+</div>
+<div #homepage>
+    <app-header></app-header>
+</div>
+<div class="grid-container">
+    <div class="grid-item">
+
     </div>
 </div>

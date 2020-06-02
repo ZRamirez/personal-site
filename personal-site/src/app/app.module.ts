@@ -25,11 +25,11 @@ const appRoutes: Routes = [
     HomeComponent,
     SpotifyComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
   ],
   providers: [],
   bootstrap: [AppComponent]
