@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderComponent } from '../header/header.component';
-import { Router, NavigationEnd } from '@angular/router';
 
 declare var VANTA;
 
@@ -12,11 +10,12 @@ declare var VANTA;
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
 
     //for the landing page animations
+    //see vantaJS for more info
     VANTA.NET({
       el: "#landingPage",
       mouseControls: true,
@@ -28,10 +27,11 @@ export class HomeComponent implements OnInit {
       color: 0xd0f25,
       backgroundColor: 0xae95dc,
       points: 9.00,
-      maxDistance: 22.00
+      maxDistance: 18.00
     })
   }
 
+  //to scroll down after clicking view button
   onClickScrollToHome(el: HTMLElement) {
     el.scrollIntoView({
       behavior: "smooth",
