@@ -9,14 +9,7 @@ import { SpotifyComponent } from './spotify/spotify.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
-
-const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'about', component: AboutComponent},
-  {path: 'spotify', component: SpotifyComponent},
-  {path: 'projects', component: ProjectsComponent},
-  {path: 'contact', component: ContactComponent},
-];
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -25,11 +18,11 @@ const appRoutes: Routes = [
     HomeComponent,
     SpotifyComponent,
     ProjectsComponent,
-    ContactComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
