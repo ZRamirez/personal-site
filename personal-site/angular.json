@@ -26,10 +26,6 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-            ],
-            "scripts": [
-              "src/vanta/three.r95.min.js",
-              "src/vanta/vanta.net.min.js"
             ]
           },
           "configurations": {

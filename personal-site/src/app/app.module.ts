@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PageComponent } from './page/page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     SpotifyComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule,
