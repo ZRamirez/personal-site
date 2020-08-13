@@ -7,3 +7,25 @@ img {
 nav {
   background-color: white;
 }
+
+a.nav-link {
+  font-family: 'eurostile', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #8a2be2 !important;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+a.nav-link .active {
+  color: #aa6fe0;
+  border-bottom-color: #892be259;
+}
+
+a:hover, a:focus {
+  border-bottom-color: #892be259;
+}
+
+.navgroup {
+  padding: 15px;
+}

@@ -31,7 +31,6 @@
   padding-left: 15px;
 }
 
-
 h1.title-page {
   font-family: 'eurostile', sans-serif;
   font-weight: 800;
@@ -64,3 +63,18 @@ h2, p {
   color: white;
 }
 
+/* Section 2 code begins */
+
+.about-me-section2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me-blurb {
+  display: flex;
+  align-self: ;
+
+}
+.title-section-2 {
+  font-size: 45px;
+}
