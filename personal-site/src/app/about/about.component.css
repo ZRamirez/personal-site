@@ -72,9 +72,54 @@ h2, p {
 
 .about-me-blurb {
   display: flex;
-  align-self: ;
+  align-self: center;
 
 }
 .title-section-2 {
   font-size: 45px;
 }
+
+
+/* Section 3 code begins */
+
+.about-me-section3 {
+  display: flex;
+}
+
+.tech-skills-title-container {
+  display: flex;
+  justify-content: center;
+}
+.tech-skills-title {
+  color: #8a2be2; 
+}
+
+.tech-skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6%;
+  flex-wrap: wrap;
+}
+
+.buttons-row {
+ position: center;
+  padding: 15px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skill-buttons {
+  margin: 10px;
+  border-color: #8a2be2;
+  color: #8a2be2;
+}
+
+/* Section 3 code ends */
+
+
+/* Section 4 code begins */
