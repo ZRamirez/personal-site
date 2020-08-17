@@ -119,6 +119,11 @@ h2, p {
   color: #8a2be2;
 }
 
+.skill-buttons:hover {
+  color: white;
+  background-color: #8a2be2;
+}
+
 /* Section 3 code ends */
 
 
