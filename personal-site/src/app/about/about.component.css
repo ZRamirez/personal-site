@@ -124,7 +124,42 @@ h2, p {
   background-color: #8a2be2;
 }
 
-/* Section 3 code ends */
-
 
 /* Section 4 code begins */
+
+
+.about-me-section4 {
+  display: flex;
+  background-color: #8a2be2; /* */
+}
+
+.relevant-title {
+  font-family: 'eurostile', sans-serif;
+  color: white;
+}
+
+.relevant-course-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8a2be2;
+  justify-content: center;
+  padding: 6%;
+}
+
+.course-buttons {
+  /* width: fit-content; */
+  margin: 10px;
+  border-color: white;
+  color: white;
+}
+
+.course-buttons:hover {
+  color: #8a2be2;
+  background-color: white;
+}
+
+.relevant-title-container {
+  display: flex;
+  justify-content: center;
+}
+
