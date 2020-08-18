@@ -78,11 +78,19 @@ h2, h3, p {
 .about-me-blurb {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding-top: 4%;
-
+  width: 50vw;
 }
 .title-section-2 {
   font-size: 45px;
+  font-family: 'eurostile', sans-serif;
+}
+
+#about-me-text {
+  font-size: 19px;
+  font-weight: 50;
+  word-wrap: break-word;
 }
 
 
