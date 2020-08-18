@@ -43,6 +43,10 @@ p.jumbo-text {
   font-size: 1.5rem;
 }
 
+#about-me-text, .title-section-2 {
+  font-family: 'eurostile', sans-serif;
+}
+
 .about-me-section1, .about-me-jumbotron1 {
   background-color: white;
   color: black;
@@ -59,7 +63,7 @@ p.jumbo-text {
   width: 45vw;
 }
 
-h2, p {
+h2, h3, p {
   color: white;
 }
 
@@ -68,11 +72,13 @@ h2, p {
 .about-me-section2 {
   display: flex;
   flex-direction: row;
+  height: 50vh;
 }
 
 .about-me-blurb {
   display: flex;
-  align-self: center;
+  flex-direction: column;
+  padding-top: 4%;
 
 }
 .title-section-2 {

@@ -40,6 +40,7 @@
 
 .button-text {
     color: white;
+    font-family: 'eurostile', sans-serif;
 }
 
 
@@ -52,4 +53,12 @@
 
 .visit-btn:hover {
     background-color: #892be293;
+}
+
+h1, h5, p {
+    font-family: 'eurostile', sans-serif;
+}
+
+h5 {
+    font-weight: 700;
 }
