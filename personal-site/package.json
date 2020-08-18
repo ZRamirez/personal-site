@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~9.1.6",
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
+    "@aws-amplify/ui-angular": "^0.2.14",
+    "aws-amplify": "^3.0.23",
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
