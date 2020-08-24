@@ -1,3 +1,6 @@
-.main {
+/* .main {
     width: 100vw;
+} */
+.wrapper {
+  overflow-x: hidden;
 }

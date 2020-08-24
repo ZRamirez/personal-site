@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 150px; /* used to offset fixed nav*/
 }
 
 .selfie-img-container {
@@ -39,6 +40,7 @@
 }
 
 h1.title-page {
+  color: black;
   font-family: 'eurostile', sans-serif;
   font-weight: 800;
   font-size: 3rem;
@@ -50,20 +52,11 @@ p.jumbo-text {
   font-size: 1.5rem;
 }
 
-#about-me-text, .title-section-2 {
-  font-family: 'eurostile', sans-serif;
-}
-
 .about-me-section1, .about-me-jumbotron1 {
   background-color: white;
   color: black;
 }
 
-.about-me-section2, .about-jumbotron2 {
-  padding-top: 0%;
-  background-color: #8a2be2; /* */
-  height: 40vh;
-}
 
 /* About me blurb */
 .blurb {
@@ -78,16 +71,17 @@ h2, h3, p {
 
 .about-me-section2 {
   display: flex;
-  flex-direction: row;
-  height: 50vh;
+  width: 100%;
+  background-color: #8a2be2; /* */
+  height: fit-content;
 }
 
 .about-me-blurb {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 4%;
-  width: 50vw;
+  padding: 5%;
+  width: 70%;
 }
 .title-section-2 {
   font-size: 45px;
@@ -96,8 +90,7 @@ h2, h3, p {
 
 #about-me-text {
   font-size: 19px;
-  font-weight: 50;
-  word-wrap: break-word;
+  font-weight: 8vw;
 }
 
 
@@ -112,7 +105,7 @@ h2, h3, p {
   justify-content: center;
 }
 .tech-skills-title {
-  color: #8a2be2; 
+  color: #8a2be2;
 }
 
 .tech-skills-container {
