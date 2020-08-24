@@ -98,6 +98,7 @@ h2, h3, p {
 
 .about-me-section3 {
   display: flex;
+  width: 100%;
 }
 
 .tech-skills-title-container {
@@ -113,11 +114,10 @@ h2, h3, p {
   flex-direction: column;
   justify-content: center;
   padding: 6%;
-  flex-wrap: wrap;
 }
 
 .buttons-row {
- position: center;
+  position: center;
   padding: 15px;
 }
 
