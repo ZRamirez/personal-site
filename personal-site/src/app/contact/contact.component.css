@@ -7,11 +7,13 @@ h2 {
     font-weight: 600;
 }
 .container {
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     /* background-color: #8a2be2; */
     background-color: white;
+    padding-top: 150px; /* used to offset fixed nav*/
 }
+
 
 .contact-info-container {
     display: flex;
@@ -33,11 +35,11 @@ h2 {
     padding-top: 5%;
     padding-bottom: 4%;
   }
-  
+
 .selfie {
     border-radius: 50%;
     height: auto;
-    width: 25%; 
+    width: 25%;
 }
 
 .social-buttons {
