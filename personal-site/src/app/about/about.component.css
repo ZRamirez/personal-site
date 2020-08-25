@@ -98,7 +98,7 @@ h2, h3, p {
 
 .about-me-section3 {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .tech-skills-title-container {
