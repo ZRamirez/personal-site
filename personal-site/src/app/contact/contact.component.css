@@ -9,20 +9,18 @@ h2 {
 .container {
     height: 100vh;
     width: 100vw;
-    /* background-color: #8a2be2; */
     background-color: white;
     padding-top: 150px; /* used to offset fixed nav*/
 }
 
-
-.contact-info-container {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-}
 .buttons-container {
     display: flex;
+    flex-direction: row;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
 }
 .text-container {
     display: flex;
@@ -56,4 +54,8 @@ h2 {
 
 .fa-linkedin-square {
     color: #007bb6;
+}
+
+@media only screen and (max-width: 600px) {
+
 }

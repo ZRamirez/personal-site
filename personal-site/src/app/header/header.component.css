@@ -17,15 +17,27 @@ a.nav-link {
   border-bottom: .25rem solid transparent;
 }
 
-a.nav-link .active {
+/* a.nav-link .active {
   color: #aa6fe0;
   border-bottom-color: #892be259;
-}
+} */
 
 a:hover, a:focus {
-  border-bottom-color: #892be259;
+  color: #892be259;
 }
 
 .navgroup {
   padding: 15px;
+}
+
+@media only screen and (min-width: 990px) {
+  a.nav-link .active {
+    color: #aa6fe0;
+    border-bottom-color: #892be259;
+  }
+
+  a:hover, a:focus {
+    border-bottom-color: #892be259;
+  }
+
 }
