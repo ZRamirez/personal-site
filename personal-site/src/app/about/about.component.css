@@ -35,8 +35,8 @@
 }
 
 .tech-photo {
-  max-width: 100%;
-  max-height: auto;
+  width: 100%;
+  height: auto;
 }
 
 h1.title-page {
