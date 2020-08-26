@@ -31,12 +31,14 @@
 .tech-img-container {
   display: flex;
   align-self: flex-start;
+  max-width: 100%;
   padding-left: 15px;
 }
 
 .tech-photo {
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  width: auto;
 }
 
 h1.title-page {
